@@ -10,7 +10,7 @@ screen.bgcolor("light blue")
 # creating the house
 t.color("black")
 t.shape("turtle")
-t.speed(10)
+t.speed(0)
 
 # the house
 t.fillcolor('blue')
@@ -64,7 +64,7 @@ t.forward(200)
 t.right(180)
 t.forward(200)
 
-t.fillcolor('Orange')
+t.fillcolor('orange')
 t.begin_fill()
 t.right(90)
 t.forward(200)
@@ -89,7 +89,6 @@ t.forward(200)
 t.right(180)
 t.forward(200)
 
-
 # for door
 t.right(90)
 t.forward(75)
@@ -102,7 +101,7 @@ t.forward(15)
 t.right(90)
 t.forward(75)
 
-t.fillcolor('white')
+t.fillcolor('yellow')
 t.begin_fill()
 t.circle(10)
 t.end_fill()
